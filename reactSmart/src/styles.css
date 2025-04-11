@@ -1,0 +1,75 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.custom-table th {
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 20px;
+
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: pink;
+
+}
+
+body {
+    /* background-color: lavender; */
+    margin: 0;
+}
+
+.title {
+    background-color: gold;
+    text-align: center;
+}
+
+.main-heading {
+    padding: 20px;
+    font-size: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.active {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 2px solid orange;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    min-width: 150px;
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    border: n2px solid purple;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+.btn:disabled {
+    background-color: rgb(145, 139, 139);
+    cursor: not-allowed;
+}
